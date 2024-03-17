@@ -1,0 +1,6 @@
+<svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="fr-ec-icon fr-ec-icon--default fr-ec-button-icon__icon" role="presentation">
+    <g fill="#dadada" fill-rule="evenodd">
+        <polygon fill-rule="nonzero" points="9.25 8.83 10.75 8.83 10.75 17.44 9.25 17.44"></polygon><polygon fill-rule="nonzero" points="13.25 8.83 14.75 8.83 14.75 17.44 13.25 17.44"></polygon>
+        <path d="M21,4.82 L13.5,4.82 L13.5,3 L10.5,3 L10.5,4.82 L3,4.82 L3,6.24 L4.74,6.24 L4.74,20.24 C4.74538757,20.6574844 5.08251556,20.9946124 5.5,21 L18.5,21 C18.9213489,20.9945275 19.2600355,20.6513844 19.26,20.23 L19.26,6.23 L21,6.23 L21,4.82 Z M17.74,19.45 L6.26,19.45 L6.26,6.24 L17.74,6.24 L17.74,19.45 Z"></path>
+    </g>
+</svg>
