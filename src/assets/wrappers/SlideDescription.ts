@@ -214,7 +214,7 @@ const Wrapper = styled.div`
                 justify-content: center;
 
                 @media (max-width: 599px) {
-                    margin-bottom: 5rem;
+                    margin-bottom: 10rem;
                 }
             }
         }
