@@ -1,12 +1,10 @@
 export { default as Header } from './Header';
 export { default as HomeLayout } from './HomeLayout';
 export { default as VerticalPagination } from './VerticalPagination';
-export { default as AutoplayHorizontalCarousel } from './AutoplayHorizontalCarousel';
 export { default as HeaderHoverMenu } from './HeaderHoverMenu';
 export { default as SlideDescription } from './SlideDescription';
 export { default as Footer } from './Footer';
 export { default as PrimaryHeader } from './PrimaryHeader';
-export { default as Attention } from './Attention';
 export { default as PrimaryLinkButton } from './PrimaryLinkButton';
 export { default as TopHorizontalCarousel } from './TopHorizontalCarousel';
 export { default as TopVerticalCarousel } from './TopVerticalCarousel';
