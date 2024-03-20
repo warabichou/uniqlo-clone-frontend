@@ -8,6 +8,7 @@ import SeePassword from '../assets/see-password.svg?react';
 import NoSeePassword from '../assets/no-see-password.svg?react';
 import { LoginSchema, loginSchema } from '../types';
 import { useGetCustomToast } from '../hooks/useGetCustomToast';
+import { toast } from 'react-toastify';
 
 const Login = (): JSX.Element => {
     const {
@@ -22,6 +23,8 @@ const Login = (): JSX.Element => {
     const onSubmit: SubmitHandler<LoginSchema> = () => {
         console.log(watch('email'));
         console.log(watch('password'));
+        toast.success('メールアドレス: ' + watch('email'));
+        toast.success('パスワード: ' + watch('password'));
     };
 
     const [isCheck, setIsCheck] = useState<boolean>(false);
