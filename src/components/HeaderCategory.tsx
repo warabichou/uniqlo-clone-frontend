@@ -38,10 +38,6 @@ const HeaderCategory = ({
         Categories[] | undefined
     >([]);
 
-    // const [minContentHeight, setMinContentHeight] = useState<string>('');
-    // console.log('minHeight: ' + minHeight);
-    // console.log('minContentHeight: ' + minContentHeight);
-
     const getMinHeight = useCallback(
         (array: Categories[]) => {
             if (array.length !== 0 && !isMediumScreen && !isSmallScreen) {
@@ -55,11 +51,6 @@ const HeaderCategory = ({
                 const rowsNumber = Math.ceil(array.length / 3);
                 const minHeight =
                     rowsNumber * 48 + (rowsNumber - 1) * 16 + 'px';
-                // {
-                //     !selectedCategory
-                //         ? setMinHeight(minHeight)
-                //         : setMinContentHeight(minHeight);
-                // }
                 {
                     !selectedCategory ? setMinHeight(minHeight) : -minHeight;
                 }
@@ -67,11 +58,6 @@ const HeaderCategory = ({
                 const rowsNumber = Math.ceil(array.length / 2);
                 const minHeight =
                     rowsNumber * 48 + (rowsNumber - 1) * 16 + 'px';
-                // {
-                //     !selectedCategory
-                //         ? setMinHeight(minHeight)
-                //         : setMinContentHeight(minHeight);
-                // }
                 {
                     !selectedCategory ? setMinHeight(minHeight) : -minHeight;
                 }

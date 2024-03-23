@@ -1,7 +1,4 @@
-export { default as Header } from './Header';
-export { default as HomeLayout } from './HomeLayout';
 export { default as VerticalPagination } from './VerticalPagination';
-export { default as HeaderHoverMenu } from './HeaderHoverMenu';
 export { default as SlideDescription } from './SlideDescription';
 export { default as Footer } from './Footer';
 export { default as PrimaryHeader } from './PrimaryHeader';
